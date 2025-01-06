@@ -1,0 +1,3 @@
+# PHP Recursion Depth Exceeded
+
+This repository demonstrates a common error in PHP involving exceeding the maximum recursion depth when dealing with deeply nested arrays and recursive functions. The `processData` function recursively processes nested arrays, but for very deep nesting, it hits the recursion limit and throws an error.  The solution demonstrates a way to address this using an iterative approach instead of recursion.
